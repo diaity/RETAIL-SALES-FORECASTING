@@ -1,1 +1,86 @@
+%%writefile style.css
+body {
+  background: radial-gradient(circle at 10% 20%, #c2e9fb 0%, #e2ebf0 100%);
+  font-family: 'Poppins', sans-serif;
+  color: #1a1a1a;
+}
+
+.glass-header {
+  text-align: center;
+  padding: 30px 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 30px;
+}
+.glass-header h1 {
+  font-size: 42px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #004aad, #8a2be2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+}
+.glass-header p {
+  font-size: 18px;
+  color: #333;
+}
+
+.sidebar-title {
+  text-align: center;
+  color: #004aad;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.section-title {
+  text-align: center;
+  color: #004aad;
+  font-size: 26px;
+  margin-top: 40px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  padding: 25px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  transition: 0.3s ease-in-out;
+}
+.glass-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 45px rgba(31, 38, 135, 0.3);
+}
+.glass-card h3 {
+  margin: 0;
+  font-size: 28px;
+}
+.glass-card p {
+  color: #333;
+  margin-bottom: 5px;
+}
+.glass-card.green h3 { color: #2ecc71; }
+.glass-card.blue h3 { color: #2980b9; }
+
+.stButton>button {
+  background: linear-gradient(90deg, #004aad, #8a2be2);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.stButton>button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #007BFF, #9932CC);
+}
 
