@@ -85,5 +85,5 @@ với **RMSE = 546.92** và **R² = 0.9754**, vượt trội so với Random For
 
 ## 8. Liên hệ
 > Nguyễn Tấn Đạt, Võ Xuân Ân  
-> GitHub: [github.com/yourusername](https://github.com/diaity)  
+> GitHub: (https://github.com/diaity)  
 > Email: nguyentandat19504@gmail.com
